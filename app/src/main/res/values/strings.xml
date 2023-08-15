@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">NuPace</string>
+    <string name="calculate">Calcular</string>
+    <string name="distance">Distância (km)</string>
+    <string name="title_pace">Pace</string>
+    <string name="time">Tempo (min)</string>
+    <string name="btn_go_back">Voltar</string>
+    <string name="hint_result">0</string>
 </resources>

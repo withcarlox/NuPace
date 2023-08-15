@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 import com.app.sprintspace.R
 
@@ -20,8 +21,15 @@ class PaceResult : AppCompatActivity() {
         setContentView(R.layout.activity_pace_result)
 
         val finalResult = intent.getStringExtra("EXTRA_PACE_RESULT")
-
-       val tvResult= findViewById<TextView>(R.id.tv_result)
+        val tvResult= findViewById<TextView>(R.id.tv_result)
         tvResult.text = finalResult.toString()
+
+        val btnGoBack = findViewById<ImageView>(R.id.btn_go_back)
+
+        btnGoBack.setOnClickListener {
+            val intent = Intent(this, PaceCalculator::class.java)
+            startActivity(intent)
+        }
+
     }
 }

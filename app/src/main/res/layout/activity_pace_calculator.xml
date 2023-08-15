@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:text="NuPace"
+        android:text="@string/app_name"
         android:textStyle="bold"
         android:textColor="#FFFFFF"
         android:textSize="35sp" />
@@ -33,7 +33,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Distância (km)"
+                android:text="@string/distance"
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"
                 android:textSize="25sp" />
@@ -50,7 +50,8 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textStyle="bold"
-                android:textSize="40sp" />
+                android:textSize="40sp"
+                android:importantForAutofill="no" />
 
         </LinearLayout>
 
@@ -69,7 +70,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tempo (min)"
+                android:text="@string/time"
                 android:textColor="#FFFFFF"
                 android:textAlignment="center"
                 android:textSize="25sp"
@@ -94,16 +95,17 @@
 
     </LinearLayout>
 
-    <Button
+    <TextView
         android:id="@+id/btn_calc_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/stats_layout"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
-        android:background="@drawable/baseline_button"
-        android:text="Calcular"
+        android:padding="20dp"
+        android:background="@drawable/custom_input"
+        android:text="@string/calculate"
         android:textColor="@color/white"
-        android:textSize="35dp" />
+        android:textSize="35sp" />
 
 </RelativeLayout>
