@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="180dp"
         android:textColor="@color/white"
-        android:text="@string/title_new_password"
+        android:text="@string/validate_email"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
