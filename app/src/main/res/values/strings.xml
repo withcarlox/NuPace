@@ -6,4 +6,18 @@
     <string name="time">Tempo (min)</string>
     <string name="btn_go_back">Voltar</string>
     <string name="hint_result">0</string>
+    <string name="btn_access">Entrar</string>
+    <string name="no_account">Não tem conta?</string>
+    <string name="forgot_password">Esqueceu sua senha?</string>
+    <string name="new_password">Insira sua nova senha</string>
+    <string name="confirm_new_password">Confirme sua nova senha</string>
+    <string name="btn_update_password">Atualizar</string>
+    <string name="title_register">Registro</string>
+    <string name="title_new_password">Nova senha</string>
+    <string name="title_welcome">Bem vindo</string>
+    <string name="email">Email</string>
+    <string name="name">Nome</string>
+    <string name="password">Senha</string>
+    <string name="confirm_password">Confirmar senha</string>
+    <string name="register">Cadastrar</string>
 </resources>
