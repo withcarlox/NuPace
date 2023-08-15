@@ -20,4 +20,6 @@
     <string name="password">Senha</string>
     <string name="confirm_password">Confirmar senha</string>
     <string name="register">Cadastrar</string>
+    <string name="insert_email">Insira seu email</string>
+    <string name="send_email">Enviar</string>
 </resources>
