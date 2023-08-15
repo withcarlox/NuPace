@@ -1,4 +1,4 @@
-package com.app.nupace
+package com.app.nupace.presentation.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

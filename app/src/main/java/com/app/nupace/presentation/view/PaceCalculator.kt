@@ -1,4 +1,4 @@
-package com.app.nupace
+package com.app.nupace.presentation.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -27,7 +27,10 @@ class PaceCalculator : AppCompatActivity() {
                 val getFinalTimeInMinutes = timeMinutes.toDouble()
                 paceCalc(getFinalDistanceInKm, getFinalTimeInMinutes)
 
-                val intent = PaceResult.start(this, timeFormatted(paceCalc(getFinalDistanceInKm,getFinalTimeInMinutes)))
+                val intent = PaceResult.start(
+                    this,
+                    timeFormatted(paceCalc(getFinalDistanceInKm, getFinalTimeInMinutes))
+                )
                 startActivity(intent)
             }
         }

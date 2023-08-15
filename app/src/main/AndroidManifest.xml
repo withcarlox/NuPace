@@ -13,13 +13,13 @@
         android:theme="@style/Theme.NuPace"
         tools:targetApi="31">
         <activity
-            android:name="com.app.nupace.PaceResult"
+            android:name="com.app.nupace.presentation.view.PaceResult"
             android:exported="false" />
         <activity
-            android:name="com.app.nupace.PaceCalculator"
+            android:name="com.app.nupace.presentation.view.PaceCalculator"
             android:exported="false" />
         <activity
-            android:name="com.app.nupace.SplashScreen"
+            android:name="com.app.nupace.presentation.view.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
