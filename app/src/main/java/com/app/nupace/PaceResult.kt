@@ -8,5 +8,9 @@ class PaceResult : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pace_result)
+
+//        val tvResultado: TextView = findViewById(R.id.txtMsgResultado)
+//
+//        tvResultado.text = paceFormatado + " min/km"
     }
 }

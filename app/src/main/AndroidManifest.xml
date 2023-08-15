@@ -13,7 +13,7 @@
         android:theme="@style/Theme.NuPace"
         tools:targetApi="31">
         <activity
-            android:name="com.app.nupace.SplashScreen"
+            android:name="com.app.nupace.MainActivity"
             android:exported="false" />
         <activity
             android:name="com.app.nupace.PaceResult"
@@ -22,7 +22,7 @@
             android:name="com.app.nupace.PaceCalculator"
             android:exported="false" />
         <activity
-            android:name="com.app.nupace.MainActivity"
+            android:name="com.app.nupace.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
